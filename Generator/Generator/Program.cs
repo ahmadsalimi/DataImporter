@@ -48,7 +48,7 @@ namespace Generator
         {
             var cards = new List<Card>();
 
-            using (var cardFile = new StreamReader("data/card.csv"))
+            using (var cardFile = new StreamReader("../../../data/card.csv"))
             {
                 var cardString = cardFile.ReadLine();
 
@@ -82,7 +82,7 @@ namespace Generator
         {
             var transactions = new List<Transaction>();
 
-            using (var transactionFile = new StreamReader("data/transaction.csv"))
+            using (var transactionFile = new StreamReader("../../../data/transaction.csv"))
             {
                 var transactionString = transactionFile.ReadLine();
 
