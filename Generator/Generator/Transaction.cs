@@ -16,6 +16,9 @@ namespace Generator
         [Text(Name = "target_id")]
         public string TargetId { get; set; }
 
+        [Text(Name = "source_target_id")]
+        public string SourceTargetId => $"{SourceId}_{TargetId}";
+
         [Text(Name = "date")]
         public string Date { get; set; }
 
