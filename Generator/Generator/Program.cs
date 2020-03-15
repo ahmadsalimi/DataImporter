@@ -99,7 +99,7 @@ namespace Generator
                         Date = attributes[3],
                         Time = attributes[4],
                         State = attributes[5],
-                        Amount = attributes[6],
+                        Amount = int.Parse(attributes[6]),
                         IssueTracking = attributes[7],
                     };
 

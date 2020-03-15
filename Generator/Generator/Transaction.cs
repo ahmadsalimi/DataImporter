@@ -32,6 +32,6 @@ namespace Generator
         public string IssueTracking { get; set; }
 
         [Text(Name = "amount")]
-        public string Amount { get; set; }
+        public int Amount { get; set; }
     }
 }
